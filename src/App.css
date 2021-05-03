@@ -69,15 +69,295 @@
 
 
 .screen {
-  display: 'flex';
-  flex-direction: 'row';
+  display: flex;
+  flex-direction: row;
 }
 
 .sleft {
-  width: '20%';
-  background-color: rgb(209, 190, 165);
+  width: 15%;
+  background-color: rgb(230, 223, 236);
+  height: 100vh;
+  
 }
 .sright {
-  width: '80%';
-  background-color: rgb(70, 62, 51);
+  width: 85%;
+  /* background-color: rgb(202, 169, 235); */
+  height: 100vh;
+}
+
+.a{
+  flex-direction: column;
+  margin-left:15px ;
+
+  /* color:rgb(75, 77, 76) */
+  
+}
+
+.box{
+  display: inline-block;
+  width: 100%;
+}
+
+.rmain{
+
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+/* .sig{
+
+  transform: rotate(90deg);
+}
+
+.fa fa-wifi{
+  transform: rotate(90deg);
+} */
+
+
+.fa-rotate-45 {
+
+  color: #673AB7;
+ 
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.permission{
+
+  width:120px;
+  height:30px;
+  display: inline-block;
+  border-bottom: 4px solid #673AB7;
+  border-bottom-left-radius: 5px;
+
+  border-bottom-right-radius: 5px;
+
+}
+.approve{
+  margin-left: 10px;
+  padding-left: 30px;
+  display:inline-block;
+  border-left:2px solid rgb(180, 177, 177);
+
+}
+.per{
+  margin-bottom: 10px;
+  color: #673AB7;
+}
+
+.content{
+
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.but{
+  margin-right: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  color: aliceblue;
+  text-align: center;
+  
+  width:190px;
+  height: 40px;
+  background-color: #673AB7;
+
+  padding-top: 6px;
+  border-radius: 5px;
+}
+
+.pen{
+  padding-left: 20px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.head{
+
+  padding-bottom: 20px;
+}
+.datatable{
+  height: 50px;
+  background-color: #efeef1;
+
+  border-bottom: 1px solid;
+}
+
+.datatable1{
+  height: 50px;
+
+  border-bottom: 1px solid;
+}
+.single{
+  text-align: center;
+  padding-top: 10px;
+  
+  padding-right: 2vw;
+  padding-left: 2vw;
+  width:250px;
+
+  display: inline-block;
+
+
+}
+
+.single :hover{
+ 
+}
+
+.acc{
+
+  height: 25px;
+  font-size: 12px;
+  width:140px;
+  background-color: rgb(150, 219, 150);
+  border-radius: 15px;
+  border: 1px solid rgb(59, 102, 59);
+  color: rgb(60, 97, 60);
+}
+
+.res{
+  height: 25px;
+  font-size: 12px;
+  justify-content: center;
+  justify-items: center;
+  width:140px;
+  background-color: rgb(247, 145, 145);
+  border-radius: 15px;
+  border: 1px solid rgb(206, 104, 78);
+  color: rgb(107, 41, 25);
+}
+
+.hov{
+  
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+.hov :hover{
+
+  color: rgb(66, 63, 63);
+  background-color: blanchedalmond;
+}
+
+.hov :focus{
+  outline: 0;
+}
+
+.ab{
+  color: #673AB7;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.but1{
+  display: inline-block;
+}
+
+.single2{
+  width:15vw;
+  display: inline-block;
+  margin-left: 180px;
+}
+.single3{
+  display: inline-block;
+  padding-left: 10vw;
+}
+.single4{
+  display: inline-block;
+  padding-left: 6vw;
+
+}
+.single8{
+  text-align: center;
+  padding-top: 10px;
+  
+  margin-left: 3vw;
+  display: inline-block;
+}
+.singlech{
+  text-align: center;
+  padding-top: 10px;
+  
+  padding-left: 8vw;
+  display: inline-block;
+}
+.singlechac{
+  text-align: center;
+  padding-top: 10px;
+  
+  padding-left: 8vw;
+  display: inline-block;
+
+}
+.singlechsm{
+  text-align: center;
+  padding-top: 10px;
+  
+  padding-left: 8vw;
+  display: inline-block;
+}
+
+.singl{
+  display: inline-block;
+  text-align: center;
+  display: inline-block;
+}
+
+.singlech2{
+  text-align: center;
+  padding-top: 10px;
+  
+  display: inline-block;
+}
+
+.nwsingle{
+  font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    padding-top:10px;
+    text-align: center;
+
+
+}
+.plus{
+ margin-left: 4px;
+  padding-top: 10px;
+}
+
+.nope{
+  height: 25px;
+
+  font-size: 12px;
+  justify-content: center;
+  justify-items: center;
+  width:140px;
+  background-color: rgb(177, 174, 174);
+  border-radius: 15px;
+  border: 1px solid rgb(107, 106, 106);
+  color: rgb(66, 64, 64);
+}
+
+.bud{
+
+  padding-left: 15px;
+}
+
+.expnd{
+
+  padding-left: 30px;
+  
+}
+.cntrl{
+  padding-bottom: 20px;
+  width: 20vw;
+}
+
+.lit{
+  font-weight: 300;
+  font-size: 15px;
+
 }
